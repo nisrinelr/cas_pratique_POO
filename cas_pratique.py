@@ -28,7 +28,7 @@ class Etudiant(Personne):
     def afficher_cours(self):
         return [cours.titre for cours in self.mes_cours]
     def __str__(self):
-        return f"L'etudiant {self.nom} {self.prenom} portant le CNE {self.cne}"
+        return f"{self.nom} {self.prenom} portant le CNE {self.cne}"
     
 class Professeur(Personne):
     def __init__(self, nom, prenom, cin):
