@@ -1,0 +1,4 @@
+liv1, emprunte, 1000, auteur1
+liv2, disponible, 2000, auteur2
+liv3, emprunte, 3000, auteur3
+liv4, disponible, 4000, auteur4
