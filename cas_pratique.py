@@ -5,7 +5,7 @@ class Personne():
 
     def __str__(self):
         return f"{self.nom} {self.prenom}"
-
+breakpoint
 class Cours:
     def __init__(self,titre, code):
         self.titre = titre 
@@ -39,7 +39,9 @@ class Professeur(Personne):
     def ajouter_cours(self, cours):
         self.cours_enseigne.append(cours)
 
+    
 
+#exemple d'application
 big_data = Cours("Big Data", "BD")
 python = Cours("Analyse de données avec Python", "ADP")
 
